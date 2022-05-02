@@ -1,0 +1,31 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# testnbsp
+
+<!-- badges: start -->
+[![R-CMD-check](https://github.com/zeehio/testnbsp/workflows/R-CMD-check/badge.svg)](https://github.com/zeehio/testnbsp/actions)
+<!-- badges: end -->
+
+The goal of testnbsp is to provide a test for a roxygen issue.
+
+You can clone this repo and run
+
+```{r eval=FALSE, include=TRUE}
+devtools::check()
+```
+
+To get the CRAN WARNING
+
