@@ -17,3 +17,6 @@ devtools::check()
 ```
 
 To get the CRAN WARNING
+
+Or just check the logs of the [github
+actions](https://github.com/zeehio/testnbsp/actions)
